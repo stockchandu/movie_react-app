@@ -1,0 +1,35 @@
+.navbar__parent{
+    display: flex;
+    width: 100%;
+}
+
+.navbar__child-list{
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+.navbar__child-list>div{
+    width:20%
+}
+
+
+.navbar__child-list>div>a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__child-list>div:nth-child(1)>img{
+    width: 70%;
+}
+
+.navbar__child-icon{
+    display: flex;
+    width: 39%;
+    align-items: center;
+    text-align: end;
+}
+
+.navbar__child-icon>div{
+    width:20%;
+}
